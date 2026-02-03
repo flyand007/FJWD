@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FJWD'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'this component only service own products,Easy to maintain'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fj' => 'fj' }
     s.source = {
-    :http => 'https://github.com/flyand007/FJWD/releases/download/1.0.0/FJWD_Package.zip'
+    :http => 'https://github.com/flyand007/FJWD/releases/download/1.0.1/FJWD_Package.zip'
   }
 
   
