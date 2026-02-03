@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fj' => 'fj' }
     s.source = {
-    :http => 'https://github.com/flyand007/FJWD/releases/download/1.0.0/FJWD.xcframework.zip'
+    :http => 'https://github.com/flyand007/FJWD/releases/download/1.0.0/FJWD_Package.zip'
   }
 
   
