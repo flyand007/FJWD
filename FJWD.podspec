@@ -21,13 +21,16 @@ Pod::Spec.new do |s|
   this component only service own products,Easy to maintain,Welcome everyone to maintain together.
                          DESC
 
-  s.homepage         = 'ddd'
+  s.homepage         = 'https://github.com/flyand007/FJWD/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fj' => 'fj' }
-  s.source           = { :git => '', :tag => s.version.to_s }
+    s.source = {
+    :http => 'https://github.com/flyand007/FJWD/releases/download/1.0.0/FJWD.xcframework.zip'
+  }
 
   
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    # ② 声明二进制框架
+  s.vendored_frameworks = 'FJWD.xcframework'
 
   s.ios.deployment_target = '13.0'
   
